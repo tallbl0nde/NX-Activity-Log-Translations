@@ -2,7 +2,7 @@
     "allActivity": {
         "sort": {
             "firstPlayed": "Trier par: Premier lancement",
-            "leastLaunched": "Trier par: Dernier lancement",
+            "leastLaunched": "Trier par: Moins lancé",
             "leastPlaytime": "Trier par: Moins joué",
             "mostLaunched": "Trier par: Plus lancé",
             "mostPlaytime": "Trier par: Plus joué",
@@ -13,8 +13,8 @@
     "common": {
         "12H": "$[h]$[s]",
         "activityFor": {
-            "day": "Activité le $[d]$[s] $[m]",
-            "dayYear": "Activité le $[d]$[s] $[m] $[y]",
+            "day": "Activité du $[d]$[s] $[m]",
+            "dayYear": "Activité du $[d]$[s] $[m] $[y]",
             "month": "Activité en $[m] $[y]",
             "year": "Activité en $[y]"
         },
@@ -31,7 +31,7 @@
         },
         "close": "Fermer",
         "dateFormat": "$[d] $[m] ",
-        "dateFormatYear": "$[d] $[m], $[y]",
+        "dateFormatYear": "$[d] $[m] $[y]",
         "dateSuffix": {
             "nd": "",
             "rd": "",
