@@ -106,7 +106,7 @@
             "hrs": "Joué $[h] heures",
             "hrs1min": "Joué $[h] heures et 1 minute",
             "1hr1min": "Joué 1 heure et 1 minute",
-            "1hrMins": "Joué 1h et $[m] minutes",
+            "1hrMins": "Joué 1 heure et $[m] minutes",
             "hrsMins": "Joué $[h] heures et $[m] minutes"
         },
         "playtime": {
