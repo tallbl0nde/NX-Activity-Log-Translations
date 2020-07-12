@@ -211,8 +211,8 @@
         "break": {
             "appClosed": "程序关闭",
             "appLaunched": "程序开启",
-            "appResumed": "程序",
-            "appSuspended": "程序恢复",
+            "appResumed": "程序恢复",
+            "appSuspended": "程序暂停",
             "heading": "游玩章节细节",
             "length": "章节长度",
             "playtime": "总共游玩时间"
