@@ -266,7 +266,7 @@
         "other": {
             "heading": "Autres options",
             "hideDeleted": "Cacher les jeux supprimés",
-            "hideDeletedHint": "N'affiche pas les jeux supprimés dans 'Toute l'activité'.",
+            "hideDeletedHint": "N'affiche pas les jeux supprimés dans 'Activité complète'.",
             "replace": "Remplacer la page utilisateur",
             "replaceBox": {
                 "error": "Une erreur est survenue :",
