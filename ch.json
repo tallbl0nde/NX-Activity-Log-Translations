@@ -142,7 +142,7 @@
             "leastLaunched": "最少启动次数",
             "leastPlaytime": "最少游玩时间",
             "mostLaunched": "最多启动次数",
-            "mostPlaytime": "最多游玩次数",
+            "mostPlaytime": "最长游玩时间",
             "name": "名称",
             "recentlyPlayed": "最近最多游玩次数"
         },
