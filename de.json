@@ -33,10 +33,10 @@
         "dateFormat": "$[d]. $[m]",
         "dateFormatYear": "$[d]. $[m] $[y]",
         "dateSuffix": {
-            "nd": "te",
-            "rd": "te",
-            "st": "te",
-            "th": "te"
+            "nd": "",
+            "rd": "",
+            "st": "",
+            "th": ""
         },
         "datePanel": {
             "headingDate": "Tag ansehen",
