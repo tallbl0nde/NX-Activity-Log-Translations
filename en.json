@@ -258,9 +258,11 @@
             "deleteImport": "Delete Imported Data",
             "deleteImportHint": "Delete the previously imported play data. The application must be restarted for this to take effect.",
             "export": "Export Play Data to JSON",
+            "exporting": "Exporting data...",
             "exportHint": "Export all users' play data to a JSON at /switch/NX-Activity-Log/export.json. This file will be overwritten if it already exists. See the GitHub wiki for the format of this file if required.",
             "import": "Import Play Data from JSON",
-            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json. Data is associated with each user account that matches the name(s) stored in the JSON. This will overwrite any previously imported play data, and requires that the application is restarted in order to take effect.",
+            "importing": "Importing data...",
+            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json. Data is associated with each user account that matches the name(s) stored in the JSON. This will overwrite any previously imported play data, and requires that the application is restarted in order to take effect.\n\nNote: This only imports the data to NX-Activity-Log and does not touch the system's activity log.",
             "heading": "Import/Export"
         },
         "launch": {
