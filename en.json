@@ -235,6 +235,12 @@
             "once": "1 time"
         }
     },
+    "hideTitles": {
+        "heading": "Choose Titles to Hide",
+        "save": "Save",
+        "titleHidden": "title hidden",
+        "titlesHidden": "titles hidden"
+    },
     "recentActivity": {
         "titleHeading": "Titles Played"
     },
@@ -268,7 +274,7 @@
             "exportSuccessful": "Play data exported successfully.",
             "import": "Import Play Data from JSON",
             "importing": "Importing data...",
-            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json. Data will be associated where the usernames of each user match. This will overwrite any previously imported play data, and requires that the application is restarted in order to take effect. Data is only imported into NX-Activity-Log, the system's activity log is not touched.",
+            "importHint": "Import play data from the JSON at /switch/NX-Activity-Log/import.json into NX-Activity-Log, overwriting any previously imported data. Data will be associated where usernames match. The application must be restarted for this to take effect.",
             "importSuccessful": "Play data imported successfully.",
             "heading": "Import/Export",
             "noImportFile": "import.json was not found at the required location."
@@ -284,8 +290,8 @@
         },
         "other": {
             "heading": "Other Options",
-            "hideDeleted": "Hide Deleted Games",
-            "hideDeletedHint": "Excludes deleted games from 'All Activity'.",
+            "hide": "Hide Titles",
+            "hideHint": "Choose titles to hide from within NX-Activity-Log.",
             "replace": "Replace User Page",
             "replaceBox": {
                 "error": "An error occurred:",
