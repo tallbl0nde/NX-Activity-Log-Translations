@@ -1,4 +1,13 @@
 {
+    "adjustPlaytime": {
+        "heading": "Adjust Playtime",
+        "picker": {
+            "hour": "Hour",
+            "minute": "Minute",
+            "second": "Second"
+        },
+        "save": "Save"
+    },
     "allActivity": {
         "sort": {
             "firstPlayed": "Sorting by: First Playtime",
@@ -289,6 +298,8 @@
             "viewHint": "The period of activity to view on launch."
         },
         "other": {
+            "adjust": "Adjust Playtime",
+            "adjustHint": "Adjust the playtime of each title individually for the selected user.",
             "heading": "Other Options",
             "hide": "Hide Titles",
             "hideHint": "Choose titles to hide from within NX-Activity-Log.",
