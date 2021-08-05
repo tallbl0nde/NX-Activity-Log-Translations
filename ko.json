@@ -13,10 +13,10 @@
     "common": {
         "12H": "$[h]$[s]",
         "activityFor": {
-            "day": "Activity for $[m] $[d]$[s]",
-            "dayYear": "Activity for $[m] $[d]$[s], $[y]",
-            "month": "Activity for $[m] $[y]",
-            "year": "Activity for $[y]"
+            "day": "$[m] $[d]$[s]의 활동",
+            "dayYear": "$[m] $[d]$[s], $[y]의 활동",
+            "month": "$[m] $[y]의 활동",
+            "year": "$[y]의 활동"
         },
         "AM": "AM",
         "am": "am",
@@ -157,20 +157,20 @@
             "0min": "전체 플레이타임: 0분",
             "1min": "전체 플레이타임: 1분",
             "mins": "전체 플레이타임: $[m]분",
-            "mins1sec": "전체 플레이타임: $[m]분 and 1초",
-            "1min1sec": "전체 플레이타임: 1분 and 1초",
-            "1minSecs": "전체 플레이타임: 1분 and $[s]초",
-            "minsSecs": "전체 플레이타임: $[m]분 and $[s]초",
+            "mins1sec": "전체 플레이타임: $[m]분 1초",
+            "1min1sec": "전체 플레이타임: 1분 1초",
+            "1minSecs": "전체 플레이타임: 1분 $[s]초",
+            "minsSecs": "전체 플레이타임: $[m]분 $[s]초",
             "1hr": "전체 플레이타임: 1시간",
             "hrs": "전체 플레이타임: $[h]시간",
-            "hrs1min": "전체 플레이타임: $[h]시간 and 1분",
-            "1hr1min": "전체 플레이타임: 1시간 and 1분",
-            "1hrMins": "전체 플레이타임: 1시간 and $[m]분",
-            "hrsMins": "전체 플레이타임: $[h]시간 and $[m]분"
+            "hrs1min": "전체 플레이타임: $[h]시간 1분",
+            "1hr1min": "전체 플레이타임: 1시간 1분",
+            "1hrMins": "전체 플레이타임: 1시간 $[m]분",
+            "hrsMins": "전체 플레이타임: $[h]시간 $[m]분"
         },
         "view": {
             "day": "1일 단위",
-            "heading": "View Activity",
+            "heading": "단위 변경",
             "month": "1달 단위",
             "year": "1년 단위"
         },
@@ -186,7 +186,7 @@
             "blue": "청색",
             "green": "녹색",
             "red": "적색",
-            "tip": "힌트: ZL/ZR을 눌러서 값을 빠르게 바꿀수 있습니다!"
+            "tip": "팁: ZL/ZR을 눌러서 값을 빠르게 바꿀수 있습니다!"
         },
         "heading": "사용자 테마",
         "highlight1": "강조 애니메이션 1",
@@ -225,7 +225,7 @@
             "heading": "연속 플레이 시간은 게임이 켜지고 꺼진시간 사이를 나타냅니다.",
             "msg1": "켜진시간, 나간시간, 플레이타임과 전체 플레이타임의 비율이 표시됩니다.",
             "msg2": "세션을 눌러 자세한정보를 확인하세요.",
-            "msg3": "Note: Sessions with an asterisk start before and/or end after the selected date. Their playtime has been adjusted to reflect the current time range, however their breakdown will show the full duration of the session."
+            "msg3": "팁: 별표가 있는 세션은 선택된 날의 전에 시작되거나, 후에 종료되었습니다. 재생 시간은 현재 시간 범위를 반영하도록 조정되었지만, 분석 결과에는 세션의 전체 시간이 표시됩니다."
         },
         "timesPlayed": {
             "heading": "플레이한 시간",
@@ -275,15 +275,15 @@
                 "errorMsg3": "파일과 폴더를 이동하고 다시 시도해 주세요.",
                 "success": "설치 성공!",
                 "successMsg1": "다음 커스텀 펌웨어가 감지되었고 이 기능이 활성화되었습니다:",
-                "successMsg2": "힌트: 이 기능은 시스모듈을 사용하지 않습니다, 오류발생시 이 앱에서 기능을 비활성화 하거나 지우세요.",
-                "successMsg3": "<커스텀 펌웨어 폴더>/0100000000001013/exefs.nsp"
+                "successMsg2": "팁: 이 기능은 시스모듈을 사용하지 않습니다. 오류발생시 이 앱에서 기능을 비활성화 하거나,",
+                "successMsg3": "<커스텀 펌웨어 폴더>/0100000000001013/exefs.nsp 을 지우세요."
             },
             "replaceHint": "유저 페이지를 이 앱으로 바꿀수 있습니다. LayeredFS와 Atmosphere 0.10.0 이상, ReiNX 혹은 SXOS가 필요합니다."
         },
         "support": "Ko-fi로 후원하기:",
         "translations": "고마운 번역가분들:",
         "update": "업데이트 확인",
-        "updateHint": "힌트: 90DNS로인해 오류가 발생할수 있습니다. 그럴경우 다시 시도하세요."
+        "updateHint": "팁: 90DNS로인해 오류가 발생할수 있습니다. 그럴경우 다시 시도하세요."
     },
     "update": {
         "cancel": "취소",
@@ -296,7 +296,7 @@
         },
         "error": {
             "heading": "업데이트를 확인할수 없습니다!",
-            "tip": "인터넷연결을 확인하고 다시 시도하세요."
+            "tip": "업데이트가 있다면, 인터넷연결을 확인하고 다시 시도하세요."
         },
         "heading": "어플리케이션 업데이트",
         "newAvailable": "버전 $[v] 로 업데이트 가능",
