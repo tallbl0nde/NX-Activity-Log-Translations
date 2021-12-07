@@ -1,4 +1,13 @@
 {
+    "adjustPlaytime": {
+        "heading": "플레이타임 조절",
+        "picker": {
+            "hour": "시간",
+            "minute": "분",
+            "second": "초"
+        },
+        "save": "저장"
+    },
     "allActivity": {
         "sort": {
             "firstPlayed": "처음 플레이한날 순서",
@@ -23,7 +32,8 @@
         "atmosphere": "Atmosphere",
         "buttonHint": {
             "back": "뒤로",
-            "date": "날짜 고르기",
+            "cancel": "취소",
+            "date": "날짜 고르기",								  
             "exit": "나가기",
             "ok": "OK",
             "sort": "순서",
@@ -33,10 +43,10 @@
         "dateFormat": "$[m] $[d]$[s]",
         "dateFormatYear": "$[m] $[d]$[s], $[y]",
         "dateSuffix": {
-            "nd": "nd",
-            "rd": "rd",
-            "st": "st",
-            "th": "th"
+            "nd": "",
+            "rd": "",
+            "st": "",
+            "th": ""
         },
         "datePanel": {
             "headingDate": "1일 단위로 보기",
@@ -47,6 +57,7 @@
             "year": "년"
         },
         "default": "시스템 기본값",
+        "delete": "지우기",
         "disabled": "꺼짐",
         "enabled": "켜짐",
         "heading": "$[name]의 활동",
@@ -233,8 +244,14 @@
             "once": "1번"
         }
     },
+    "hideTitles": {
+        "heading": "감출 타이틀을 선택하세요",
+        "save": "저장",
+        "titleHidden": "타이틀 감춰짐",
+        "titlesHidden": "타이틀 감춰짐"
+    },
     "recentActivity": {
-        "titleHeading": "플레이한 타이틀"
+        "titleHeading": "타이틀 플레이됨"
     },
     "settings": {
         "about": "제 앱을 이용해주셔서 감사합니다! 유용했으면 좋겠습니다! :)",
@@ -254,6 +271,23 @@
             "themeEdit": "사용자 테마 설정",
             "themeHint": "이 어플리케이션에서 사용할 테마를 고르세요. 자동은 스위치 설정의 테마를 따라갑니다. 색상조정및 배경화면 이미지를 사용하려면 사용자 테마를 누르세요."
         },
+        "importExport": {
+            "confirmDelete": "정말 모든 가져온 기록을 지우겠습니까?",
+            "confirmDeleteBody": "이 작업은 취소될 수 없습니다.",
+            "deleteImport": "가져온 기록 지우기",
+            "deleteImportHint": "이전에 가져온 기록 지우기. 적용을 위해 어플리케이션이 재시작 되어야 합니다.",
+            "deleteSuccessful": "가져온 기록이 성공적으로 지워졌습니다.",
+            "export": "JSON으로 플레이 기록 내보내기",
+            "exporting": "데이터를 내보내는 중입니다...",
+            "exportHint": "모든 유저의 플레이 기록을 JSON형식으로 /switch/NX-Activity-Log/export.json에 내보냅니다. 파일이 이미 존재한다면 덮어쓰기 될것입니다.",
+            "exportSuccessful": "플레이 기록이 성공적으로 내보내졌습니다.",
+            "import": "JSON으로부터 플레이 기록 가져오기",
+            "importing": "데이터를 가져오는 중입니다...",
+            "importHint": "/switch/NX-Activity-Log/import.json에 있는 JSON형식 플레이 기록을 NX-Activity-Log로 가져옵니다, 이전에 가져온 데이터는 덮어쓰기 될것입니다. 유저이름이 같은 기록이 연동됩니다. 적용을 위해 어플리케이션이 재시작 되어야 합니다.",
+            "importSuccessful": "플레이 기록이 성공적으로 가져와졌습니다.",
+            "heading": "가져오기/내보내기",
+            "noImportFile": "import.json이 정해진 위치에 존재하지 않습니다."
+        },
         "launch": {
             "heading": "시작 설정",
             "screen": "기본화면",
@@ -264,10 +298,12 @@
             "viewHint": "시작후 표시될 활동기간입니다."
         },
         "other": {
-            "heading": "기타 옵션",
-            "hideDeleted": "삭제된 게임 숨기기",
-            "hideDeletedHint": "삭제된 게임을 전체 활동에서 숨깁니다.",
-            "replace": "유저 페이지 대체",
+            "adjust": "플레이타임 조절",
+            "adjustHint": "선택된 유저에 대하여 각 타이틀의 플레이타임을 개별적으로 조절하세요.",
+            "heading": "다른 설정",
+            "hide": "타이틀 감추기",
+            "hideHint": "NX-Activity-Log에서 감출 타이틀을 고르세요.",
+            "replace": "유저 페이지 대체",										   
             "replaceBox": {
                 "error": "오류 발생:",
                 "errorMsg1": "이 어플리케이션의 .nro파일이 이 위치에 없습니다::",
