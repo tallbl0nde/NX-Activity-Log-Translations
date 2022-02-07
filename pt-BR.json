@@ -60,7 +60,7 @@
         "delete": "Deletar",
         "disabled": "Desativado",
         "enabled": "Ativado",
-        "heading": "Atividade de $[name]",
+        "heading": "Página de $[name]",
         "lastPlayed": {
             "future": "Jogado no futuro",
             "secs": "Jogado alguns segundos atrás",
