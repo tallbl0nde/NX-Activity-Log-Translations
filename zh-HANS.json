@@ -159,8 +159,8 @@
         },
         "sxos": "SX OS",
         "timesPlayed": {
-            "multiple": "完了 $[t] 次",
-            "once": "完了 1 次"
+            "multiple": "玩了 $[t] 次",
+            "once": "玩了 1 次"
         },
         "totalPlaytime": {
             "heading": "总游戏时长：",
