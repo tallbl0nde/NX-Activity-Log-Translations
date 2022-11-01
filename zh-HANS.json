@@ -22,14 +22,14 @@
     "common": {
         "12H": "$[h]$[s]",
         "activityFor": {
-            "day": "当日动态 $[m] $[d]$[s]",
-            "dayYear": "年日动态 $[m] $[d]$[s], $[y]",
-            "month": "当月动态 $[m] $[y]",
-            "year": "年度动态 $[y]"
+            "day": "$[m] $[d]$[s] 当日记录",
+            "dayYear": "$[y], $[m]  $[d]$[s] 年日记录",
+            "month": "$[y] $[m] 当月记录",
+            "year": "$[y] 年度记录"
         },
         "AM": "上午",
         "am": "上午",
-        "atmosphere": "大气层",
+        "atmosphere": "Atmosphere",
         "buttonHint": {
             "back": "返回",
             "cancel": "取消",
@@ -41,7 +41,7 @@
         },
         "close": "关闭",
         "dateFormat": "$[m] $[d]$[s]",
-        "dateFormatYear": "$[m] $[d]$[s], $[y]",
+        "dateFormatYear": "$[y] $[m] $[d]$[s]",
         "dateSuffix": {
             "nd": "日",
             "rd": "日",
@@ -56,22 +56,22 @@
             "month": "月",
             "year": "年"
         },
-        "default": "系统默认",
+        "default": "跟随主机",
         "delete": "删除",
         "disabled": "关闭",
         "enabled": "开启",
-        "heading": "$[name]的动态",
+        "heading": "$[name]的记录",
         "lastPlayed": {
             "future": "将来游",
             "secs": "几秒钟前刚玩过",
-            "1min": "一分钟前玩过",
+            "1min": "1 分钟前玩过",
             "mins": "$[m] 分钟前玩过",
-            "1hr": "一小时前玩过",
+            "1hr": "1 小时前玩过",
             "hrs": "$[h] 小时前玩过",
-            "1day": "一天前玩过",
+            "1day": "1 天前玩过",
             "days": "$[d] 天前玩过",
             "date": "上次游戏于 $[m] $[d]$[s]",
-            "dateYear": "上次游戏于 $[m] $[d]$[s], $[y]"
+            "dateYear": "上次游戏于 $[y] $[m] $[d]$[s]"
         },
         "month": {
             "jan": "1月",
@@ -104,7 +104,7 @@
         "off": "关闭",
         "on": "开启",
         "no": "否",
-        "noActivity": "这段时间没有记录任何游戏动态",
+        "noActivity": "这段时间没有记录任何游戏记录",
         "playedFor" : {
             "0min": "玩了少于 1 分钟",
             "1min": "玩了 1 分钟",
@@ -134,7 +134,7 @@
             "hrs": "$[h] 小时",
             "hrs1min": "$[h] 小时 1 分钟",
             "1hr1min": "1 小时 1 秒",
-            "1hrMins": "一小时 $[m] 分钟",
+            "1hrMins": "1 小时 $[m] 分钟",
             "hrsMins": "$[h] 小时 $[m] 分钟"
         },
         "playtimeHours": "游戏时长（小时）",
@@ -143,8 +143,8 @@
         "pm": "下午",
         "reinx": "ReiNX",
         "screen": {
-            "allActivity": "所有动态",
-            "recentActivity": "最近动态",
+            "allActivity": "所有记录",
+            "recentActivity": "最近记录",
             "settings": "设置"
         },
         "sort": {
@@ -181,7 +181,7 @@
         },
         "view": {
             "day": "按天",
-            "heading": "查看动态",
+            "heading": "查看记录",
             "month": "按月",
             "year": "按年"
         },
@@ -217,7 +217,7 @@
         "text": "文本"
     },
     "details": {
-        "allTime": "所有时间的动态",
+        "allTime": "所有时间的记录",
         "avgPlaytime": "平均游戏时长",
         "break": {
             "appClosed": "程序已关闭",
@@ -254,28 +254,28 @@
         "titleHeading": "游玩的游戏"
     },
     "settings": {
-        "about": "感谢使用我的软件，希望您能用得上它！",
+        "about": "感谢使用我的软件，希望您能用得上它！;)",
         "appearance": {
             "24H": "使用 24 小时制",
-            "graph": "显示图形值",
+            "graph": "显示条形图详细数值",
             "graphHint": "切换是否在图里每个条的上方显示数值",
             "heading": "外观",
             "language": "语言",
             "theme": {
-                "auto": "自动",
+                "auto": "跟随主机",
                 "custom": "自定义",
-                "dark": "经典黑",
+                "dark": "黑色系",
                 "heading": "主题",
-                "light": "经典白"
+                "light": "白色系"
             },
             "themeEdit": "自定义主题",
-            "themeHint": "用于应用程序的主题。自动根据您的NS的设置选择暗色系或者亮色系主题。选择自定义可以设置背景图像并调整颜色。"
+            "themeHint": "用于本程序的主题。自动根据Switch的设置选择黑色系或者白色系主题。选择自定义可以设置背景图像并调整颜色。"
         },
         "importExport": {
             "confirmDelete": "您确定要删除所有导入的数据吗？",
             "confirmDeleteBody": "此操作无法撤消。",
             "deleteImport": "删除导入的数据",
-            "deleteImportHint": "删除之前导入的游玩数据。必须重新启动应用程序才能使其生效。",
+            "deleteImportHint": "删除之前导入的游玩数据。必须重新启动本程序才能使其生效。",
             "deleteSuccessful": "已成功删除导入的数据。",
             "export": "将游玩数据导出为JSON文件",
             "exporting": "正在导出数据...",
@@ -290,23 +290,23 @@
         },
         "launch": {
             "heading": "启动选项",
-            "screen": "默认屏幕",
-            "screenHint": "启动时或选择用户后显示的屏幕",
+            "screen": "默认页面",
+            "screenHint": "启动时或选择用户后显示的页面",
             "sort": "默认排序方式",
-            "sortHint": "在启动时使用的“所有动态”的排序方法。",
+            "sortHint": "在启动时使用的“所有记录”的排序方法。",
             "view": "默认显示类型",
-            "viewHint": "在启动时查看的动态期间。"
+            "viewHint": "在启动时查看的记录期间。"
         },
         "other": {
             "adjust": "调整游戏时间",
             "adjustHint": "为所选用户单独调整每个游戏的游戏时间。",
             "heading": "其他设置",
             "hide": "隐藏游戏",
-            "hideHint": "在NX-Activity-Log中选择要隐藏的游戏。",
-            "replace": "替换用户页",
+            "hideHint": "选择要在NX-Activity-Log中隐藏的游戏。",
+            "replace": "替换用户页面",
             "replaceBox": {
                 "error": "发生错误：",
-                "errorMsg1": "在预期的位置没有找到此应用程序的.nro文件：",
+                "errorMsg1": "在预期的位置没有找到此程序的.nro文件：",
                 "errorMsg2": "此功能要求.nro文件存在于此位置。",
                 "errorMsg3": "请移动或重命名任意文件和文件夹，然后重试。",
                 "success": "安装成功！",
@@ -314,7 +314,7 @@
                 "successMsg2": "注意：此功能不使用任何系统模块，如果您遇到任何错误，请在应用中禁用此功能或删除",
                 "successMsg3": "sdmc:/<自制系统文件夹>/0100000000001013/exefs.nsp"
             },
-            "replaceHint": "用这个应用程序替换用户页。需要LayeredFS支持以及自制系统Atmosphere 0.10.0+、ReiNX或SXOS。"
+            "replaceHint": "替换用户页面为本程序。需要LayeredFS支持和Atmosphere 0.10.0+、ReiNX或SXOS自制系统。"
         },
         "support": "你可以在Ko-fi网站上支持我：",
         "translations": "感谢以下人员在翻译应用程序时提供的帮助：",
