@@ -155,7 +155,7 @@
             "mostLaunched": "按最多游戏启动次数",
             "mostPlaytime": "按最长游戏时长",
             "name": "按名称",
-            "recentlyPlayed": "按最近游戏次数"
+            "recentlyPlayed": "按最近游戏时间"
         },
         "sxos": "SX OS",
         "timesPlayed": {
