@@ -62,7 +62,7 @@
         "enabled": "開啟",
         "heading": "$[name]的動態",
         "lastPlayed": {
-            "future": "將來遊",
+            "future": "將來玩",
             "secs": "幾秒鐘前剛玩過",
             "1min": "壹分鐘前玩過",
             "mins": "$[m] 分鐘前玩過",
