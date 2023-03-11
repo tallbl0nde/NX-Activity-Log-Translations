@@ -134,7 +134,7 @@
             "hrs": "$[h] 小时",
             "hrs1min": "$[h] 小时 1 分钟",
             "1hr1min": "1 小时 1 分钟",
-            "1hrMins": "一小时 $[m] 分钟",
+            "1hrMins": "1 小时 $[m] 分钟",
             "hrsMins": "$[h] 小时 $[m] 分钟"
         },
         "playtimeHours": "游戏时长（小时）",
