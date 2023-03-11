@@ -23,8 +23,8 @@
         "12H": "$[h]$[s]",
         "activityFor": {
             "day": "當日動態 $[m] $[d]$[s]",
-            "dayYear": "年日動態 $[m] $[d]$[s], $[y]",
-            "month": "當月動態 $[m] $[y]",
+            "dayYear": "年日動態 $[y] $[m] $[d]$[s]",
+            "month": "當月動態 $[y] $[m]",
             "year": "年度動態 $[y]"
         },
         "AM": "上午",
@@ -41,7 +41,7 @@
         },
         "close": "關閉",
         "dateFormat": "$[m] $[d]$[s]",
-        "dateFormatYear": "$[m] $[d]$[s], $[y]",
+        "dateFormatYear": "$[y] $[m] $[d]$[s]",
         "dateSuffix": {
             "nd": "日",
             "rd": "日",
@@ -71,7 +71,7 @@
             "1day": "壹天前玩過",
             "days": "$[d] 天前玩過",
             "date": "上次遊戲於 $[m] $[d]$[s]",
-            "dateYear": "上次遊戲於 $[m] $[d]$[s], $[y]"
+            "dateYear": "上次遊戲於 $[y] $[m] $[d]$[s]"
         },
         "month": {
             "jan": "1月",
