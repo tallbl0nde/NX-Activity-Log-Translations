@@ -32,6 +32,7 @@
         "close": "Kapat",
         "dateFormat": "$[m] $[d]$[s]",
         "dateFormatYear": "$[m] $[d]$[s], $[y]",
+        "yearSuffix": "",
         "dateSuffix": {
             "nd": "inci",
             "rd": "inci",

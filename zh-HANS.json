@@ -42,6 +42,7 @@
         "close": "关闭",
         "dateFormat": "$[m] $[d]$[s]",
         "dateFormatYear": "$[y] $[m] $[d]$[s]",
+        "yearSuffix": "年",
         "dateSuffix": {
             "nd": "日",
             "rd": "日",

@@ -41,6 +41,7 @@
         "close": "Fermer",
         "dateFormat": "$[d] $[m] ",
         "dateFormatYear": "$[d] $[m] $[y]",
+        "yearSuffix": "",
         "dateSuffix": {
             "nd": "",
             "rd": "",
