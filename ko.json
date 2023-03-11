@@ -42,6 +42,7 @@
         "close": "닫기",
         "dateFormat": "$[m] $[d]$[s]",
         "dateFormatYear": "$[m] $[d]$[s], $[y]",
+        "yearSuffix": "",
         "dateSuffix": {
             "nd": "",
             "rd": "",

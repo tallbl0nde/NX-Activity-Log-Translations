@@ -32,6 +32,7 @@
         "close": "Закрыть",
         "dateFormat": "$[m] $[d]$[s]",
         "dateFormatYear": "$[m] $[d]$[s], $[y]",
+        "yearSuffix": "",
         "dateSuffix": {
             "nd": "ое",
             "rd": "е",

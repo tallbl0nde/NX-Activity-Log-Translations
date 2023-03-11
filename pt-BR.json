@@ -42,6 +42,7 @@
         "close": "Fechar",
         "dateFormat": "$[d]$[s] $[m]",
         "dateFormatYear": "$[d]$[s] $[m], $[y]",
+        "yearSuffix": "",
         "dateSuffix": {
             "nd": "",
             "rd": "",
