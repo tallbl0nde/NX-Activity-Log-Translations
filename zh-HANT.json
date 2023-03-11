@@ -23,8 +23,8 @@
         "12H": "$[h]$[s]",
         "activityFor": {
             "day": "當日動態 $[m] $[d]$[s]",
-            "dayYear": "年日動態 $[m] $[d]$[s], $[y]",
-            "month": "當月動態 $[m] $[y]",
+            "dayYear": "年日動態 $[y] $[m] $[d]$[s]",
+            "month": "當月動態 $[y] $[m]",
             "year": "年度動態 $[y]"
         },
         "AM": "上午",
@@ -41,7 +41,8 @@
         },
         "close": "關閉",
         "dateFormat": "$[m] $[d]$[s]",
-        "dateFormatYear": "$[m] $[d]$[s], $[y]",
+        "dateFormatYear": "$[y] $[m] $[d]$[s]",
+        "yearSuffix": "年",
         "dateSuffix": {
             "nd": "日",
             "rd": "日",
@@ -62,7 +63,7 @@
         "enabled": "開啟",
         "heading": "$[name]的動態",
         "lastPlayed": {
-            "future": "將來遊",
+            "future": "將來玩",
             "secs": "幾秒鐘前剛玩過",
             "1min": "壹分鐘前玩過",
             "mins": "$[m] 分鐘前玩過",
@@ -71,7 +72,7 @@
             "1day": "壹天前玩過",
             "days": "$[d] 天前玩過",
             "date": "上次遊戲於 $[m] $[d]$[s]",
-            "dateYear": "上次遊戲於 $[m] $[d]$[s], $[y]"
+            "dateYear": "上次遊戲於 $[y] $[m] $[d]$[s]"
         },
         "month": {
             "jan": "1月",
@@ -133,8 +134,8 @@
             "1hr": "1 小時",
             "hrs": "$[h] 小時",
             "hrs1min": "$[h] 小時 1 分鐘",
-            "1hr1min": "1 小時 1 秒",
-            "1hrMins": "壹小時 $[m] 分鐘",
+            "1hr1min": "1 小時 1 分鐘",
+            "1hrMins": "1 小時 $[m] 分鐘",
             "hrsMins": "$[h] 小時 $[m] 分鐘"
         },
         "playtimeHours": "遊戲時長（小時）",
@@ -155,7 +156,7 @@
             "mostLaunched": "按最多遊戲啟動次數",
             "mostPlaytime": "按最長遊戲時長",
             "name": "按名稱",
-            "recentlyPlayed": "按最近遊戲次數"
+            "recentlyPlayed": "按最近遊戲時間"
         },
         "sxos": "SX OS",
         "timesPlayed": {
