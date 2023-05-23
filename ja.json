@@ -283,8 +283,7 @@
             "exportSuccessful": "正常にエクスポートされたデータを再生します。",
             "import": "JSONからPlayデータをインポートする",
             "importing": "JSONからプレイデータをインポートする...",
-            "importHint": "
-/switch/NX-Activity-Log/import.jsonにあるJSONからNX-Activity-Logに再生データをインポートし、以前にインポートしたデータを上書きします。ユーザー名が一致する場所にデータが関連付けられます。これを有効にするには、アプリケーションを再起動する必要があります。",
+            "importHint": "/switch/NX-Activity-Log/import.jsonにあるJSONからNX-Activity-Logに再生データをインポートし、以前にインポートしたデータを上書きします。ユーザー名が一致する場所にデータが関連付けられます。これを有効にするには、アプリケーションを再起動する必要があります。",
             "importSuccessful": "正常にインポートされたデータを再生します。",
             "heading": "インポート・エクスポート",
             "noImportFile": "import.jsonが必要な場所に見つかりませんでした。"
